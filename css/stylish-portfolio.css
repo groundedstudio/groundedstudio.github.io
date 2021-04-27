@@ -123,7 +123,7 @@ h6 {
     height: 100%;
     transition: all 0.4s ease 0s;
     transform: translateX(250px);
-    background: #91DC5A;
+    background: rgba(255, 255, 255, 0.7);
     border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -139,13 +139,13 @@ h6 {
 .sidebar-nav li.sidebar-nav-item a {
     display: block;
     text-decoration: none;
-    color: #fff;
+    color: rgba(100, 100, 100, 1);
     padding: 15px;
 }
 
 .sidebar-nav li a:hover {
     text-decoration: none;
-    color: #fff;
+    color: rgba(100, 100, 100, 1);
     background: rgba(255, 255, 255, 0.2);
 }
 
@@ -165,11 +165,11 @@ h6 {
 }
 
 .sidebar-nav > .sidebar-brand a {
-    color: #fff;
+    color: #000;
 }
 
 .sidebar-nav > .sidebar-brand a:hover {
-    color: #fff;
+    color: #000;
     background: none;
 }
 
